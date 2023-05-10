@@ -148,6 +148,8 @@ main div {
    
   }}
 
+  
+
   @media screen and (max-width: 576px) {
     nav ul {
     display: block;
@@ -179,6 +181,14 @@ main div {
 padding: 0px;
   }}
   
+  @media screen and (max-width: 576px) {
+   main section div {
+font-size: 1rem;
+width: 100%;
+border: 10px;
+box-sizing: content-box;
+
+  }}
 
     footer div {
         display: inline;
