@@ -1,0 +1,47 @@
+
+%flex_centrado1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+};
+
+%flex_centrado2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+};
+
+%flex_centrado3{
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+
+};
+
+%inline1 {
+    display: inline;
+}
+
+header{
+    @extend %flex_centrado1;
+}
+
+nav ul{
+    @extend %flex_centrado2;
+
+}
+
+main div {
+    @extend %flex_centrado3;
+}
+
+div p {
+    @extend %inline1;
+}
+
+div button {
+    @extend %inline1;
+}
+

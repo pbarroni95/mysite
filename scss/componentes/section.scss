@@ -1,0 +1,11 @@
+div {
+    h5 {
+        color: $color-amarillo;
+        text-decoration: none;
+        text-shadow: 0 0 5px '$color-marroncito',
+        0 0 25px '$color-marroncito',
+        0 0 50px '$color-marroncito',
+        0 0 100px '$color-marroncito';
+    }
+}
+

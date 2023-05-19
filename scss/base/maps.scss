@@ -1,0 +1,35 @@
+$divespecial: (
+    paddingespecial: 36px,
+);
+
+div img {
+    padding: map-get($divespecial, paddingespecial);
+}
+
+$redes: (
+    fa-instagram: #d5719b,
+    fa-tiktok: #0e0b0b,
+    fa-youtube: #df2641,
+    fa-spotify: #41df26,
+    fa-facebook: #2593a0,
+);
+
+.fa-instagram {
+    color: map-get($redes,fa-instagram);
+}
+
+.fa-tiktok {
+    color: map-get($redes,fa-tiktok);
+}
+
+.fa-youtube {
+    color: map-get($redes,fa-youtube);
+}
+
+.fa-spotify {
+    color: map-get($redes,fa-spotify);
+}
+
+.fa-facebook {
+    color: map-get($redes,fa-facebook);
+}

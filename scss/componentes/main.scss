@@ -1,0 +1,58 @@
+main {
+    h1 {
+        text-align: center;
+        font-size: 45pt;
+        background-color: $color-azultransparente;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: $color-amarillo;
+    }
+}
+
+main {
+    h2 {
+        text-align: center;
+        color: $color-amarillo;
+        padding: 36px;
+        font-size: 20px;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
+
+main {
+    h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: $color-gris;
+    }
+}
+
+main {
+    div {
+        button {
+            display: flex;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        h1 {
+            font-size: 30pt;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        section {
+            div {
+                font-size: 1rem;
+                width: 100%;
+                border: 10px;
+                box-sizing: content-box;
+            }
+        }
+    }
+}

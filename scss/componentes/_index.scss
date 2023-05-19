@@ -1,0 +1,21 @@
+body {
+    font-family: monospace;
+    color: nth($colores, 4);
+    background-color: nth($colores, 2);
+    margin: 10px;
+}
+
+body {
+    p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+//saturacion
+
+#backgroundcolorsaturado {
+    background-color: saturate($color-azul, 10%);
+}

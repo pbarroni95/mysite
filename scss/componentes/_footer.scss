@@ -1,0 +1,20 @@
+footer {
+    div {
+        display: inline;
+        text-align: center;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            i {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+

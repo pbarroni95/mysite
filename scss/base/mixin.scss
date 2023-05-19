@@ -1,0 +1,10 @@
+// sin parametros 
+
+@mixin inline-center{
+    display: inline;
+text-align: center;
+}
+
+footer div {
+@include inline-center;
+}

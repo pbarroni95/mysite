@@ -1,0 +1,33 @@
+.card {
+    background-color: #e4e4e4;
+    box-shadow: 0 0 5px #6c6c6c,
+        0 0 25px #6c6c6c,
+        0 0 50px #6c6c6c,
+        0 0 100px #6c6c6c;
+    border-color: $color-botones;
+    border-radius: 50px;
+}
+
+.card-title {
+    color: $color-amarillo;
+    text-decoration: none;
+    text-shadow: 0 0 5px #1f1a0d,
+        0 0 25px #1f1a0d,
+        0 0 50px #1f1a0d,
+        0 0 100px #1f1a0d;
+}
+
+.btn-outline-primary {
+    color: $color-amarillo;
+    background-color: $color-botones;
+    border: $color-amarillo;
+}
+
+button {
+    background-color: nth($colores,7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-blanquito;
+    border: solid 1px lightslategray;
+    padding: 10px;
+    margin: 10px;
+}
