@@ -4,7 +4,7 @@ main {
         font-size: 45pt;
         background-color: $color-azultransparente;
         font-family: 'Roboto', sans-serif;
-        margin-top: 5px;
+        margin-top: 101px;
         margin-bottom: 10px;
         color: $color-amarillo;
     }
@@ -13,46 +13,59 @@ main {
 main {
     h2 {
         text-align: center;
-        color: $color-amarillo;
-        padding: 36px;
-        font-size: 20px;
-        font-family: 'Roboto Mono', monospace;
+        color: $color-blanquito;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding: 30px;
+        text-shadow: 0 0 5px #8894A2,
+            0 0 25px #8894A2,
+            0 0 50px #8894A2,
+            0 0 100px #8894A2;
     }
 }
 
 main {
     h3 {
         text-align: center;
-        font-size: 2rem;
-        color: $color-gris;
+        color: $color-amarillo;
+        text-transform: uppercase;
+        padding: 36px;
+        font-size: 30px;
+        font-family: 'Roboto Mono', monospace;
+        text-shadow: 0 0 5px #1f1a0d,
+        0 0 25px #1f1a0d,
+        0 0 50px #1f1a0d,
+        0 0 100px #1f1a0d;
+        background-color: $grisocurito;
     }
 }
 
-main {
-    div {
-        button {
-            display: flex;
-        }
-    }
-}
 
-@media screen and (max-width: 576px) {
-    main {
-        h1 {
-            font-size: 30pt;
-        }
-    }
-}
-
-@media screen and (max-width: 576px) {
-    main {
-        section {
+            main {
             div {
-                font-size: 1rem;
-                width: 100%;
-                border: 10px;
-                box-sizing: content-box;
+                button {
+                    display: flex;
+                }
             }
         }
-    }
-}
+
+        @media screen and (max-width: 576px) {
+            main {
+                h1 {
+                    font-size: 30pt;
+                }
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            main {
+                section {
+                    div {
+                        font-size: 1rem;
+                        width: 100%;
+                        border: 10px;
+                        box-sizing: content-box;
+                    }
+                }
+            }
+        }

@@ -17,42 +17,43 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 
 <body>
     <header>
-        <img src="../img/Logo_Rocy_Lozy.jpg" alt="">
-
         <nav>
-            <ul>
-                <li><a href="../index.html"> Volver a la Home</a></li>
-                <li><a href="../docs/foodzone.html">Food Zone</a></li>
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i></label>
+            <a href="../index.html" class="enlace"><img src="../img/Logo_Rocy_Lozy.jpg"
+                alt="club designed for fitness, social and party people" class="logo"></a>
+            <ul class="menu">
+                <li><a href="../index.html"> Back Home</a></li>
                 <li><a href="../docs/fitzone.html">Fit Zone</a></li>
+                <li><a href="../docs/foodzone.html">Food Zone</a></li>
                 <li><a href="../docs/partyzone.html">Party Zone</a></li>
                 <li><a href="../docs/storezone.html">Store Zone</a></li>
             </ul>
         </nav>
-    </div>
-</div>
     </header>
     <main>
         <h1>FOOD ZONE</h1>
-        <h3 style="padding: 10px;">¿Conoces estos sellos?</H3>
+        <h2 style="padding: 10px;">¿Conoces estos sellos?</H2>
 
         <div>
-            <img src="../img/Food/crueltyfree.png" alt="crueltyfree">
-
             <img src="../img/Food/ecologic.png" alt="ecologic">
+
+            <img src="../img/Food/crueltyfree.png" alt="crueltyfree">
 
             <img src="../img/Food/organicfood.png" alt="organicfood">
         </div>
-        <h2>La materia prima utilizada para preparar nuestros desayunos, brunchs y restó son elegidos priorizando el
-            origen orgánico, el bienestar animal y ecológico.</H2>
+        <h3>La materia prima utilizada para preparar nuestros desayunos, brunchs y restó son elegidos priorizando el
+            origen orgánico, el bienestar animal y ecológico.</H3>
         <hr>
         <div class="container-fluid ">
             <div class="row">
-                <h3>Which is the best membresy for me?</h3>
+                <h2>Which is the best membresy for me?</h2>
                 <div class="card" style="width: 18rem; margin: 15px; text-align:center;">
                     <div class="card-body">
                         <h5 class="card-title">NEO GENERATION</h5>
@@ -87,45 +88,58 @@
             </div>
         </div>
         <hr>
-<section>
-        <div class="container-fluid" style="flex-wrap: wrap;">
-            <div class="row">
-                <h3> Breakfast-Menu</h3>
-                <div class="desayuno col-lg-6 col-12" style="text-align:justify; margin-top: 36px;">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur aut consequuntur, accusantium
-                    eos nulla, odit molestias sed ducimus tenetur iste amet quas, eaque placeat expedita maiores? Ab
-                    veritatis deserunt ratione.
-                    Libero illum corporis quibusdam consequuntur rerum aut recusandae autem quis quidem illo temporibus
-                    molestias, optio cum eveniet saepe exercitationem impedit magnam quasi soluta neque. Similique eius
-                    inventore quisquam quasi ex.
-                    Libero illum corporis quibusdam consequuntur rerum aut recusandae autem quis quidem illo temporibus
-                    molestias, optio cum eveniet saepe exercitationem impedit magnam quasi soluta neque. Similique eius
-                    inventore quisquam quasi ex.
+        <section>
+            <div class="container-fluid" style="flex-wrap: wrap;">
+                <div class="row">
+                    <h3> Breakfast-Menu</h3>
+                    <div class="desayuno col-lg-6 col-12" style="text-align:justify; margin-top: 36px;">
+                        You can taste our breakfasts like:
+                        Green Smoothie: Spinach, banana, apple, cucumber. Optional: Add a tablespoon of organic chia
+                        seeds and organic plant-based milk (such as almond or oat milk).
+                        Oatmeal Bowl: Whole oats, organic plant-based milk.
+                        Optional: Top with fresh organic fruits (such as banana, strawberries, or blueberries), organic
+                        nuts (like walnuts or almonds), organic seeds (such as sunflower or pumpkin seeds), and organic
+                        natural sweetener (such as organic honey or agave syrup).
+                        Avocado Toast: Organic whole-grain bread.
+                        Spread mashed organic avocado on the bread and add sea salt and pepper to taste. You can also
+                        top it with organic tomato slices and fresh organic spinach.
+                        Vegan Tofu Scramble: Organic tofu, organic vegetables (such as bell peppers, onion, and
+                        spinach).
+                        Prepare a vegan tofu scramble by using tofu as a substitute for eggs and sautéing the
+                        vegetables. Add organic spices and seasonings to taste.
+                        Healthy Mexican Breakfast: Organic eggs, organic black beans, organic avocado, organic tomato
+                        salsa.
+                        Prepare scrambled eggs with organic vegetables like bell peppers, onions, and spinach. Serve
+                        them with organic black beans and sliced organic avocado. Top it off with organic tomato salsa.
+                        Enjoy it with a cup of organic coffee.
+
+
+
+                    </div>
+                    <div class="desayuno col-lg-6 col-12" style="text-align:justify;">
+                        <img src="../img/Food/desayunoorganic1.jpg" alt="">
+                    </div>
                 </div>
-                <div class="desayuno col-lg-6 col-12" style="text-align:justify;">
-                    <img src="../img/Food/desayunoorganic1.jpg" alt="">
+                <div class="row">
+                    <h3> Brunch Menu</h3>
+                    <div class="brunch col-lg-6 col-12" style="text-align:justify;">
+                        <img src="../img/Food/brunchorganic1.jpg" alt="">
+                    </div>
+                    <div class="brunch col-lg-6 col-12" style="text-align:justify; margin-top: 36px;">
+                        You can also try our brunchs:
+                        Avocado and Tomato Toast: Whole-grain bread, avocado, tomato, sea salt, pepper.
+                        Vegan Breakfast Burritos: Whole wheat tortillas, scrambled tofu, spices, black beans, avocado,
+                        vegan hot sauce.
+                        Acai Bowl: Acai pulp, frozen banana, coconut milk, granola, strawberries, banana, chia seeds.
+                        Vegan Tofu Benedict: Tofu, spices, soy sauce, whole-grain bread, spinach, vegan hollandaise
+                        sauce, tomato, avocado.
+                        Banana Oat Pancakes: Ripe bananas, oats, plant-based milk, salt, fresh fruits, nuts, maple
+                        syrup.
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <h3> Brunch Menu</h3>
-                <div class="brunch col-lg-6 col-12" style="text-align:justify;">
-                    <img src="../img/Food/brunchorganic1.jpg" alt="">
-                </div>
-                <div class="brunch col-lg-6 col-12" style="text-align:justify; margin-top: 36px;">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur aut consequuntur, accusantium
-                    eos nulla, odit molestias sed ducimus tenetur iste amet quas, eaque placeat expedita maiores? Ab
-                    veritatis deserunt ratione.
-                    Libero illum corporis quibusdam consequuntur rerum aut recusandae autem quis quidem illo temporibus
-                    molestias, optio cum eveniet saepe exercitationem impedit magnam quasi soluta neque. Similique eius
-                    inventore quisquam quasi ex.
-                    Libero illum corporis quibusdam consequuntur rerum aut recusandae autem quis quidem illo temporibus
-                    molestias, optio cum eveniet saepe exercitationem impedit magnam quasi soluta neque. Similique eius
-                    inventore quisquam quasi ex.
-                </div>
             </div>
-        </div>
-        </div>
-    </section>
+        </section>
     </main>
     <hr>
     <footer>

@@ -1,13 +1,18 @@
 $color-amarillo: #dbf304;
 $color-azul: #111f22; 
-$color-blanquito: #FEEECD;
+$color-blanquito: rgb(254, 238, 205);
 $color-azultransparente: rgba(55, 74, 92, 0.2);
 $color-gris:#bfcbbc;
 $color-botones: #64848c;
+$color-grisocurito: rgba(54, 61, 68, 0.8);
 $color-marroncito: #1f1a0d;
 #color-azulsaturado {
     background-color: saturate($color-azul, 50%),
 }
 $colorazulsatu: '#color-azulsaturado';
+$colorblancofluo:  0 0 5px #1f1a0d,
+0 0 25px #1f1a0d,
+0 0 50px #1f1a0d,
+0 0 100px #1f1a0d;
 
 
