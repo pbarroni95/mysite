@@ -20,6 +20,13 @@
 
 };
 
+%grid_centrado1{
+    display: grid;
+   grid-template-columns: 2fr;
+   grid-template-rows: auto;
+
+};
+
 %inline1 {
     display: inline;
 }

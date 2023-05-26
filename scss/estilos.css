@@ -189,6 +189,60 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 1400px) {
+  .carousel-control-prev {
+    border: 0px;
+    left: -35px;
+  }
+}
+@media (max-width: 1400px) {
+  .carousel-control-next {
+    border: 0px;
+    right: -35px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-control-prev {
+    left: -56px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel-control-next {
+    right: -56px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-control-prev {
+    left: -37px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-control-next {
+    right: -37px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 514px) {
+  .carousel-control-prev {
+    left: -20px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 514px) {
+  .carousel-control-next {
+    right: -20px;
+    transform: none;
+    margin-top: 10px;
+  }
+}
 #backgroundcolorsaturado {
   background-color: #0e2125;
 }
@@ -222,6 +276,7 @@ main h3 {
   padding: 11px;
   font-size: 26px;
   font-family: "Roboto Mono", monospace;
+  background-color: rgba(55, 74, 92, 0.2);
 }
 
 main div button {
@@ -230,7 +285,19 @@ main div button {
 
 @media screen and (max-width: 576px) {
   main h1 {
-    font-size: 30pt;
+    font-size: 29pt;
+  }
+  main h2 {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main section div {
+    font-size: 1rem;
+    width: 100%;
+    border: 10px;
+    position: relative;
+    display: inline-block;
   }
 }
 @media screen and (max-width: 576px) {

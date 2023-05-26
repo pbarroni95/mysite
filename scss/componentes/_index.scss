@@ -17,7 +17,69 @@ body {
 body {
     overflow-x: hidden;
 }
+@media (max-width: 1400px) {
+    .carousel-control-prev {
+    border: 0px; 
+    left: -35px;
+    }
+}
 
+@media (max-width: 1400px) {
+    .carousel-control-next {
+        border: 0px; 
+        right: -35px;
+        }
+    }
+
+@media (max-width: 992px) {
+    .carousel-control-prev {
+        left: -56px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel-control-next {
+        right: -56px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .carousel-control-prev {
+        left: -37px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-control-next {
+        right: -37px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 514px) {
+    .carousel-control-prev {
+        left: -20px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 514px) {
+    .carousel-control-next {
+        right: -20px;
+        transform: none;
+        margin-top: 10px;
+    }
+}
 //saturacion
 
 #backgroundcolorsaturado {

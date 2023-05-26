@@ -6,6 +6,15 @@ div img {
     padding: map-get($divespecial, paddingespecial);
 }
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
 $redes: (
     fa-instagram: #d5719b,
     fa-tiktok: #0e0b0b,
