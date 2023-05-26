@@ -24,10 +24,15 @@
 }
 
 button {
-    background-color: nth($colores,7);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: nth($colores,8);
+    font-family: monospace;
     color: $color-blanquito;
     border: solid 1px lightslategray;
+    border-radius: 8px;
     padding: 10px;
     margin: 10px;
 }
+
+button:hover {
+    background-color: $color-azultransparente
+   }

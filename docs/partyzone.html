@@ -17,6 +17,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="../scss/estilos.css">
 </head>
 
@@ -32,15 +35,48 @@
                 <li><a href="../index.html"> Back Home</a></li>
                 <li><a href="../docs/fitzone.html">Fit Zone</a></li>
                 <li><a href="../docs/foodzone.html">Food Zone</a></li>
-                <li><a href="../docs/partyzone.html">Party Zone</a></li>
+                <li><a class="active" href="../docs/partyzone.html">Party Zone</a></li>
                 <li><a href="../docs/storezone.html">Store Zone</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>PARTY ZONE</h1>
-        <h3 style="padding: 30px;"> IT IS OK TO HAVE FUN. You decide how:
-        </h3>
+        <h1 data-aos="fade-right">PARTY ZONE</h1>
+        
+        <section>
+            <h2 data-aos="zoom-in" style="text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;"> Welcome to the Art of showing your soul Gallery</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="art col-lg-6 col-12" data-aos="flip-left">
+                        <img src="../img/Party/art1.jpeg" alt="">
+                    </div>
+                    <div class="art col-lg-6 col-12" data-aos="fade-right"
+                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;"> El
+                        arte se ve
+                    </div>
+
+                    <div class="art col-lg-6 col-12" data-aos="fade-left"
+                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;">El
+                        arte se escucha
+                    </div>
+                    <div class="art col-lg-6 col-12" data-aos="flip-right">
+                        <img src="../img/Party/art2.png" alt="">
+                    </div>
+
+                    <div class="art col-lg-6 col-12" data-aos="flip-left">
+                        <img src="../img/Party/art3.jpeg" alt="">
+                    </div>
+                    <div class="art col-lg-6 col-12" data-aos="fade-right"
+                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;">Pero
+                        sobre todo, se siente.
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <h2 style="padding: 30px;"> IT IS OK TO HAVE FUN. You decide how:
+        </h2>
         <div class="container-fluid">
             <div class="row">
                 <div class="btn-group" style="background-color: #9cb9bc;" role="group"
@@ -60,38 +96,6 @@
                 </div>
             </div>
         </div>
-        <hr>
-        <section>
-            <h3>Art of showing your soul</h3>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="art col-lg-6 col-12">
-                        <img src="../img/Party/art1.jpeg" alt="">
-                    </div>
-                    <div class="art col-lg-6 col-12"
-                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;"> El
-                        arte se ve
-                    </div>
-
-                    <div class="art col-lg-6 col-12"
-                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;">El
-                        arte se escucha
-                    </div>
-                    <div class="art col-lg-6 col-12">
-                        <img src="../img/Party/art2.png" alt="">
-                    </div>
-
-                    <div class="art col-lg-6 col-12">
-                        <img src="../img/Party/art3.jpeg" alt="">
-                    </div>
-                    <div class="art col-lg-6 col-12"
-                        style="text-align: center; justify-content: center; font-size: 80px; align-items: center;">Pero
-                        sobre todo, se siente.
-
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
     <hr>
@@ -129,6 +133,14 @@
         </div>
     </footer>
     <p> Todos los derechos Reservados 2023. Desarrollado por Paula Barroni </p>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {duration: 2000,
+            once:false}
+        );
+      </script>
+
 </body>
 
 </html>

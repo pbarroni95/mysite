@@ -116,7 +116,7 @@ nav .checkbtn {
 nav #check {
   display: none;
 }
-@media (max-width: 576px) {
+@media (max-width: 855px) {
   nav .checkbtn {
     display: block;
   }
@@ -138,18 +138,22 @@ nav #check {
   }
   nav ul li a {
     font-size: 20px;
-  }
-  nav ul li a:hover,
-  nav ul li a.active {
     color: rgb(254, 238, 205);
     text-decoration: none;
     background: none;
     text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
   }
-  nav #check:checked ~ ul {
-    right: 0;
-    flex-direction: column;
+  nav ul a:hover,
+  nav ul a.active {
+    color: rgb(254, 238, 205);
+    text-decoration: none;
+    background: none;
+    text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
   }
+}
+nav #check:checked ~ ul {
+  right: 0;
+  flex-direction: column;
 }
 
 footer div {
@@ -199,23 +203,25 @@ main h1 {
   color: #dbf304;
 }
 
+h2:hover {
+  cursor: pointer;
+  text-shadow: 0 0 5px #335b63, 0 0 25px #335b63, 0 0 50px #335b63, 0 0 100px #335b63;
+}
+
 main h2 {
   text-align: center;
-  color: rgb(254, 238, 205);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 2rem;
   padding: 30px;
-  text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
 }
 
 main h3 {
   text-align: center;
   color: #dbf304;
-  text-transform: uppercase;
-  padding: 36px;
-  font-size: 30px;
+  padding: 11px;
+  font-size: 26px;
   font-family: "Roboto Mono", monospace;
-  text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
 }
 
 main div button {
@@ -247,6 +253,13 @@ div h2 {
   text-shadow: 0 0 5px "$color-marroncito", 0 0 25px "$color-marroncito", 0 0 50px "$color-marroncito", 0 0 100px "$color-marroncito";
 }
 
+section h2:hover {
+  color: rgb(254, 238, 205);
+  text-decoration: none;
+  background: none;
+  text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
+}
+
 .card {
   background-color: #e4e4e4;
   box-shadow: 0 0 5px #6c6c6c, 0 0 25px #6c6c6c, 0 0 50px #6c6c6c, 0 0 100px #6c6c6c;
@@ -267,10 +280,15 @@ div h2 {
 }
 
 button {
-  background-color: rgb(72, 88, 102);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(20, 27, 34);
+  font-family: monospace;
   color: rgb(254, 238, 205);
   border: solid 1px lightslategray;
+  border-radius: 8px;
   padding: 10px;
   margin: 10px;
+}
+
+button:hover {
+  background-color: rgba(55, 74, 92, 0.2);
 }/*# sourceMappingURL=estilos.css.map */
